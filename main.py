@@ -292,7 +292,6 @@ WHERE od.productCode IN (
 )
 ORDER BY e.lastName
 """, conn)
-""", conn)
 df_under_20
 
 
